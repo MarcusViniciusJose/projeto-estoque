@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+     <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="style.css">
+       <link href="https://unpkg.com/preact@10.5.0/dist/preact.min.js"
+rel='stylesheet'>    
+       <title>Cadastro</title>
+   </head>
+<body>
+    <div class="sidebar">
+    <h2>Painel de Mnitoramento</h2>
+     <ul>
+       <li type="button" id="cadastro" onclick="telaInicio()">inicio</li>
+       <li type="button" id="cadastro" onclick="telaEntrada()">entradas</li>
+       <li type="button" id="cadastro" onclick="telaSaida()">saidas</li>
+       <li type="button" id="cadastro" onclick="telaEstoque()">estoque</li>
+       <li type="button" id="cadastro" onclick="telaCadastro()">cadastrar</li>
+     </ul>
+  </div>
+  <div class="box">
+      <h1>Cadastro</h1>
+    <div class="Ultilitarios">
+        <input type="text" placeholder="Nome">
+     </div>  
+     <div class="Ultilitarios">
+       <input type="text" placeholder="ID Produto">
+     </div>  
+     <div class="Ultilitarios">  
+       <input type="text" placeholder="Quantidade">
+     </div>  
+     <div class="Ultilitarios">  
+       <input type="text" placeholder="Validade">
+     </div>
+     <div class="cadastrar-buttom">
+       <button id="cadastrar-buttom">cadastrar</button> 
+    </div>
+  </div>  
+    </body>
+</html>
